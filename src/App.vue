@@ -3,11 +3,13 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <Aaa />
+    <Bbb />
   </div>
 </template>
 
 <script>
 import Aaa from "./components/Aaa.vue";
+import Bbb from "./components/Bbb.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
@@ -15,6 +17,7 @@ export default {
   components: {
     HelloWorld,
     Aaa,
+    Bbb,
   },
 };
 </script>
